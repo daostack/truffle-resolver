@@ -21,7 +21,7 @@ FS.prototype.require = function(import_path, search_path) {
     if (import_path.indexOf(this.working_directory) != 0) {
       return null;
     }
-  } else {
+  } else if (!path.isAbsolute(search_path)) {
     search_path = path.join(this.working_directory, search_path);
   }
 
