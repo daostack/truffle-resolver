@@ -1,5 +1,5 @@
 {
-  "name": "truffle-resolver",
+  "name": "truffle-resolver-fix-relative-path-issue",
   "version": "4.0.1",
   "description": "Resolve contract dependencies given multiple configurable dependency sources",
   "main": "index.js",
